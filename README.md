@@ -39,7 +39,7 @@ Create an Azure virtual machine using windows 10. After created, copy the public
 <img src="https://i.imgur.com/OKImj8w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Head to the pc's control panel and click programs. Press turn windows features on or off. Find internet information services and turn them on. Expand IIS, woldwide web, and application developer. Under application developer you should see CGI and you want to click the square to install.
+Head to the pc's control panel and click programs. Press turn windows features on or off. Find internet information services and turn them on. Expand IIS, woldwide web, and application developer. Under application developer you should see CGI and you want to click the square to install. Last you wanna download PHP manager and the rewrite module.
 </p>
 <br />
 
@@ -47,20 +47,20 @@ Head to the pc's control panel and click programs. Press turn windows features o
 <img src="https://i.imgur.com/bUfgbvZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>       
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create a new foler in the root of the C drive and name it PHP. Then download PHP and extract the contents in the new PHP folder. You want to download C++ redistributable since PHP requires it. Download and install MySqL server. Inside MySQL you want to set up and remember your root password. This is used to setup a database to store the users, tickets, etc.
 </p>
 <br />                                                                                                                                                  <p>       
 <p>
 <img src="https://i.imgur.com/3qV73bC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>       
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Find the IIS app and before opening right click on it,and click run as admin. Double click PHP manager and register new PHP version. Then go head to the C drive, PHP, and click PHP-CGI.
 </p>
 <br />  
 <p>
 <img src="https://i.imgur.com/IlEPLmM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This is the final screen you should have after completely setting up OsTicket on the pc. There are multiple steps to get here which includes enabling multiple extentions in PHP manager, Disable inheritence and giving everyone permission inside of osticket. The last istallation you will need to do is HeidiSQL. After a few clean up procedures, you now have a fully working OsTicketing system.
 </p>
 <br />
